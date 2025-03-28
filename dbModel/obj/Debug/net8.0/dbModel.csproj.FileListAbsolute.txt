@@ -1,0 +1,14 @@
+C:\Users\svj49145\source\repos\584Project\dbModel\bin\Debug\net8.0\dbModel.deps.json
+C:\Users\svj49145\source\repos\584Project\dbModel\bin\Debug\net8.0\dbModel.dll
+C:\Users\svj49145\source\repos\584Project\dbModel\bin\Debug\net8.0\dbModel.pdb
+C:\Users\svj49145\source\repos\584Project\dbModel\obj\Debug\net8.0\dbModel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\svj49145\source\repos\584Project\dbModel\obj\Debug\net8.0\dbModel.AssemblyInfoInputs.cache
+C:\Users\svj49145\source\repos\584Project\dbModel\obj\Debug\net8.0\dbModel.AssemblyInfo.cs
+C:\Users\svj49145\source\repos\584Project\dbModel\obj\Debug\net8.0\dbModel.csproj.CoreCompileInputs.cache
+C:\Users\svj49145\source\repos\584Project\dbModel\obj\Debug\net8.0\dbModel.dll
+C:\Users\svj49145\source\repos\584Project\dbModel\obj\Debug\net8.0\refint\dbModel.dll
+C:\Users\svj49145\source\repos\584Project\dbModel\obj\Debug\net8.0\dbModel.pdb
+C:\Users\svj49145\source\repos\584Project\dbModel\obj\Debug\net8.0\ref\dbModel.dll
+C:\Users\svj49145\source\repos\584Project\dbModel\bin\Debug\net8.0\dbModel.runtimeconfig.json
+C:\Users\svj49145\source\repos\584Project\dbModel\obj\Debug\net8.0\dbModel.csproj.AssemblyReference.cache
+C:\Users\svj49145\source\repos\584Project\dbModel\obj\Debug\net8.0\dbModel.genruntimeconfig.cache

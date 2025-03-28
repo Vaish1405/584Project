@@ -1,0 +1,47 @@
+city,city_ascii,lat,lng,country,iso2,iso3,admin_name,restaurant_name,review_score,review_count,id
+Tokyo,Tokyo,35.6897,139.6922,Japan,JP,JPN,Tokyo,Sushi King,4.7,245,1001
+Jakarta,Jakarta,-6.175,106.8275,Indonesia,ID,IDN,Jakarta,Nasi Goreng Corner,4.3,320,1002
+Delhi,Delhi,28.61,77.23,India,IN,IND,Delhi,Spicy Tandoor,4.5,210,1003
+Guangzhou,Guangzhou,23.13,113.26,China,CN,CHN,Guangdong,Dumpling House,4.8,180,1004
+Mumbai,Mumbai,19.0761,72.8775,India,IN,IND,Maharashtra,The Bombay Grill,4.2,450,1005
+Manila,Manila,14.5958,120.9772,Philippines,PH,PHL,Manila,Banana Leaf Bistro,4.6,375,1006
+Shanghai,Shanghai,31.2286,121.4747,China,CN,CHN,Shanghai,Dim Sum Palace,4.7,310,1007
+Sao Paulo,Sao Paulo,-23.55,-46.6333,Brazil,BR,BRA,Sao Paulo,Churrasco Grill,4.3,240,1008
+Seoul,Seoul,37.56,126.99,"Korea, South",KR,KOR,Seoul,Kimchi House,4.9,520,1009
+Mexico City,Mexico City,19.4333,-99.1333,Mexico,MX,MEX,Ciudad de México,El Taco Loco,4.4,370,1010
+Cairo,Cairo,30.0444,31.2358,Egypt,EG,EGY,Al Qahirah,Egyptian Feast,4.6,190,1011
+New York,New York,40.6943,-73.9249,United States,US,USA,New York,Pizza Palace,4.5,600,1012
+Dhaka,Dhaka,23.7639,90.3889,Bangladesh,BD,BGD,Dhaka,Bengali Bites,4.1,150,1013
+Beijing,Beijing,39.9067,116.3975,China,CN,CHN,Beijing,Peking Duck House,4.8,220,1014
+Kolkata,Kolkata,22.5675,88.37,India,IN,IND,West Bengal,Calcutta Curry,4.4,180,1015
+Bangkok,Bangkok,13.7525,100.4942,Thailand,TH,THA,Krung Thep Maha Nakhon,Pad Thai Express,4.7,250,1016
+Shenzhen,Shenzhen,22.5415,114.0596,China,CN,CHN,Guangdong,Shenzhen BBQ,4.6,310,1017
+Los Angeles,Los Angeles,34.0522,-118.2437,United States,US,USA,California,Sushi Town,4.5,220,1018
+Paris,Paris,48.8566,2.3522,France,FR,FRA,Île-de-France,Bistro de Paris,4.6,180,1019
+London,London,51.5074,-0.1278,United Kingdom,GB,GBR,England,The Royal Grill,4.3,290,1020
+Rome,Rome,41.9028,12.4964,Italy,IT,ITA,Lazio,La Trattoria,4.7,310,1021
+Berlin,Berlin,52.52,13.405,Germany,DE,DEU,Berlin,Currywurst House,4.4,190,1022
+Sydney,Sydney,-33.8688,151.2093,Australia,AU,AUS,New South Wales,Sydney Steakhouse,4.7,260,1023
+Toronto,Toronto,43.65107,-79.347015,Canada,CA,CAN,Ontario,Maple Leaf Grill,4.6,280,1024
+Buenos Aires,Buenos Aires,-34.6037,-58.3816,Argentina,AR,ARG,Buenos Aires,Parrilla del Sur,4.5,200,1025
+Madrid,Madrid,40.4168,-3.7038,Spain,ES,ESP,Madrid,El Rincón Español,4.6,220,1026
+Cape Town,Cape Town,-33.9249,18.4241,South Africa,ZA,ZAF,Western Cape,Cape Town Seafood,4.7,240,1027
+Istanbul,Istanbul,41.0082,28.9784,Turkey,TR,TUR,Istanbul,Kebab House,4.3,270,1028
+Seoul,Seoul,37.5665,126.978,South Korea,KR,KOR,Seoul,Bibimbap Palace,4.9,310,1029
+Moscow,Moscow,55.7558,37.6173,Russia,RU,RUS,Moscow,Russian Feast,4.6,150,1030
+Lagos,Lagos,6.5244,3.3792,Nigeria,NG,NGA,Lagos,Jollof Rice Bistro,4.3,180,1031
+Dubai,Dubai,25.276987,55.296249,United Arab Emirates,AE,ARE,Dubai,Arabian Delights,4.8,400,1032
+Hong Kong,Hong Kong,22.3193,114.1694,China,HK,HKG,Hong Kong,Dim Sum Paradise,4.7,280,1033
+Madrid,Madrid,40.4168,-3.7038,Spain,ES,ESP,Madrid,Paella House,4.7,350,1034
+Lima,Lima,-12.0464,-77.0428,Peru,PE,PER,Lima,Ceviche Corner,4.6,190,1035
+Kuala Lumpur,Kuala Lumpur,3.139,101.6869,Malaysia,MY,MYS,Kuala Lumpur,Satay House,4.4,220,1036
+San Francisco,San Francisco,37.7749,-122.4194,United States,US,USA,California,Seafood Grill,4.6,210,1037
+Los Angeles,Los Angeles,34.0522,-118.2437,United States,US,USA,California,California Grill,4.3,310,1038
+Madrid,Madrid,40.4168,-3.7038,Spain,ES,ESP,Madrid,Café de la Plaza,4.5,180,1039
+Dubai,Dubai,25.276987,55.296249,UAE,AE,ARE,Dubai,Falafel King,4.8,360,1040
+Cairo,Cairo,30.0444,31.2358,Egypt,EG,EGY,Al Qahirah,Koshary House,4.7,210,1041
+Johannesburg,Johannesburg,-26.2041,28.0473,South Africa,ZA,ZAF,Gauteng,Braai Masters,4.6,240,1042
+Paris,Paris,48.8566,2.3522,France,FR,FRA,Île-de-France,Chez Pierre,4.8,330,1043
+Rome,Rome,41.9028,12.4964,Italy,IT,ITA,Lazio,Osteria Roma,4.5,210,1044
+Singapore,Singapore,1.3521,103.8198,Singapore,SG,SGP,Singapore,Laksa House,4.6,250,1045
+Nairobi,Nairobi,-1.2867,36.8172,Kenya,KE,KEN,Nairobi,Nyama Choma Grill,4.4,170,1046

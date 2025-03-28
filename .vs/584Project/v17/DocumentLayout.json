@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\svj49145\\source\\repos\\584Project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{311DE789-EE57-4D47-9A0B-E3F743161941}|584Project.Server\\584Project.Server.csproj|c:\\users\\svj49145\\source\\repos\\584project\\584project.server\\584project.server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{311DE789-EE57-4D47-9A0B-E3F743161941}|584Project.Server\\584Project.Server.csproj|solutionrelative:584project.server\\584project.server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F958FFA7-044F-41AD-811F-57A9A66F2DE5}|dbModel\\dbModel.csproj|c:\\users\\svj49145\\source\\repos\\584project\\dbmodel\\restarurantreviewscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F958FFA7-044F-41AD-811F-57A9A66F2DE5}|dbModel\\dbModel.csproj|solutionrelative:dbmodel\\restarurantreviewscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F958FFA7-044F-41AD-811F-57A9A66F2DE5}|dbModel\\dbModel.csproj|c:\\users\\svj49145\\source\\repos\\584project\\dbmodel\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F958FFA7-044F-41AD-811F-57A9A66F2DE5}|dbModel\\dbModel.csproj|solutionrelative:dbmodel\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "584Project.Server",
+              "DocumentMoniker": "C:\\Users\\svj49145\\source\\repos\\584Project\\584Project.Server\\584Project.Server.csproj",
+              "RelativeDocumentMoniker": "584Project.Server\\584Project.Server.csproj",
+              "ToolTip": "C:\\Users\\svj49145\\source\\repos\\584Project\\584Project.Server\\584Project.Server.csproj",
+              "RelativeToolTip": "584Project.Server\\584Project.Server.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-28T03:12:08.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RestarurantReviewsContext.cs",
+              "DocumentMoniker": "C:\\Users\\svj49145\\source\\repos\\584Project\\dbModel\\RestarurantReviewsContext.cs",
+              "RelativeDocumentMoniker": "dbModel\\RestarurantReviewsContext.cs",
+              "ToolTip": "C:\\Users\\svj49145\\source\\repos\\584Project\\dbModel\\RestarurantReviewsContext.cs",
+              "RelativeToolTip": "dbModel\\RestarurantReviewsContext.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAowB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T03:02:01.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "City.cs",
+              "DocumentMoniker": "C:\\Users\\svj49145\\source\\repos\\584Project\\dbModel\\City.cs",
+              "RelativeDocumentMoniker": "dbModel\\City.cs",
+              "ToolTip": "C:\\Users\\svj49145\\source\\repos\\584Project\\dbModel\\City.cs",
+              "RelativeToolTip": "dbModel\\City.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T03:01:43.856Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
