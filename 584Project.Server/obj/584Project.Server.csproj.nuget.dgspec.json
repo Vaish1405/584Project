@@ -1,23 +1,115 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\svj49145\\source\\repos\\584Project\\584Project.Server\\584Project.Server.csproj": {}
+    "C:\\Users\\ruben\\OneDrive\\Desktop\\584Project\\584Project.Server\\584Project.Server.csproj": {}
   },
   "projects": {
-    "C:\\Users\\svj49145\\source\\repos\\584Project\\584Project.Server\\584Project.Server.csproj": {
+    "C:\\Users\\ruben\\OneDrive\\Desktop\\584Project\\584Project.Server\\584Project.Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\svj49145\\source\\repos\\584Project\\584Project.Server\\584Project.Server.csproj",
+        "projectUniqueName": "C:\\Users\\ruben\\OneDrive\\Desktop\\584Project\\584Project.Server\\584Project.Server.csproj",
         "projectName": "584Project.Server",
-        "projectPath": "C:\\Users\\svj49145\\source\\repos\\584Project\\584Project.Server\\584Project.Server.csproj",
-        "packagesPath": "C:\\Users\\svj49145\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\svj49145\\source\\repos\\584Project\\584Project.Server\\obj\\",
+        "projectPath": "C:\\Users\\ruben\\OneDrive\\Desktop\\584Project\\584Project.Server\\584Project.Server.csproj",
+        "packagesPath": "C:\\Users\\ruben\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ruben\\OneDrive\\Desktop\\584Project\\584Project.Server\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\svj49145\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ruben\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\ruben\\OneDrive\\Desktop\\584Project\\dbModel\\dbModel.csproj": {
+                "projectPath": "C:\\Users\\ruben\\OneDrive\\Desktop\\584Project\\dbModel\\dbModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.SpaProxy": {
+              "target": "Package",
+              "version": "[8.*-*, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.6.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ruben\\OneDrive\\Desktop\\584Project\\dbModel\\dbModel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ruben\\OneDrive\\Desktop\\584Project\\dbModel\\dbModel.csproj",
+        "projectName": "dbModel",
+        "projectPath": "C:\\Users\\ruben\\OneDrive\\Desktop\\584Project\\dbModel\\dbModel.csproj",
+        "packagesPath": "C:\\Users\\ruben\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ruben\\OneDrive\\Desktop\\584Project\\dbModel\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ruben\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -50,13 +142,19 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "Microsoft.AspNetCore.SpaProxy": {
+            "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[8.*-*, )"
+              "version": "[9.0.3, )"
             },
-            "Swashbuckle.AspNetCore": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[6.6.2, )"
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.3, )"
             }
           },
           "imports": [
@@ -71,9 +169,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

@@ -3,7 +3,7 @@
 "ServerUrl": "https://localhost:55813",
 "RedirectUrl": "",
 "LaunchCommand": "npm start",
-"WorkingDirectory": "C:\\Users\\svj49145\\source\\repos\\584Project\\584Project.Server\\..\\584project.client",
+"WorkingDirectory": "C:\\Users\\ruben\\OneDrive\\Desktop\\584Project\\584Project.Server\\..\\584project.client",
 "MaxTimeoutInSeconds": "120",
 "KeepRunning": "false"
 }

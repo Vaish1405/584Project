@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "t4lpGEvWMdolMKRExVJ9VBTqkU5NPKif5tPjwFlUzsY=",
+  "Hash": "IniYJRBZDwRhE061q4LMQHXVtGxZfLFaJUm4RR7G2aA=",
   "Source": "584Project.Server",
   "BasePath": "_content/584Project.Server",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "C:\\Users\\svj49145\\source\\repos\\584Project\\584project.client\\584project.client.esproj",
+      "Identity": "C:\\Users\\ruben\\OneDrive\\Desktop\\584Project\\584project.client\\584project.client.esproj",
       "Version": 2,
       "Source": "584project.client",
       "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
