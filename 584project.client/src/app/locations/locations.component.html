@@ -1,0 +1,31 @@
+<h1>Locations</h1>
+<p>Here's a list of restaurant locations: click to explore.</p>
+
+<div *ngIf="locations && locations.length > 0; else loading">
+  <table class="table table-striped" aria-labelledby="tableLabel">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Restaurant</th>
+        <th>City</th>
+        <th>Country</th>
+        <th>Latitude</th>
+        <th>Longitude</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let location of locations">
+        <td><a [routerLink]="['/locationDetails', location.locationId]">{{ location.locationId }}</a></td>
+        <td>{{ location.restaurantName }}</td>
+        <td>{{ location.cityName }}</td>
+        <td>{{ location.country }}</td>
+        <td>{{ location.latitude }}</td>
+        <td>{{ location.longitude }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<ng-template #loading>
+  <p><em>Loading...</em></p>
+</ng-template>

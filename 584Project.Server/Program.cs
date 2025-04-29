@@ -26,12 +26,10 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseHttpsRedirection();
+app.UseCors(option => option.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin());
 
 app.UseAuthorization();
 
 app.MapControllers();
-
-app.MapFallbackToFile("/index.html");
 
 app.Run();

@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\ruben\\OneDrive\\Desktop\\584Project\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{311DE789-EE57-4D47-9A0B-E3F743161941}|584Project.Server\\584Project.Server.csproj|c:\\users\\ruben\\onedrive\\desktop\\584project\\584project.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{311DE789-EE57-4D47-9A0B-E3F743161941}|584Project.Server\\584Project.Server.csproj|solutionrelative:584project.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{311DE789-EE57-4D47-9A0B-E3F743161941}|584Project.Server\\584Project.Server.csproj|c:\\users\\ruben\\onedrive\\desktop\\584project\\584project.server\\controllers\\locationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{311DE789-EE57-4D47-9A0B-E3F743161941}|584Project.Server\\584Project.Server.csproj|solutionrelative:584project.server\\controllers\\locationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{311DE789-EE57-4D47-9A0B-E3F743161941}|584Project.Server\\584Project.Server.csproj|c:\\users\\ruben\\onedrive\\desktop\\584project\\584project.server\\dtos\\locationreveiw.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{311DE789-EE57-4D47-9A0B-E3F743161941}|584Project.Server\\584Project.Server.csproj|solutionrelative:584project.server\\dtos\\locationreveiw.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{311DE789-EE57-4D47-9A0B-E3F743161941}|584Project.Server\\584Project.Server.csproj|c:\\users\\ruben\\onedrive\\desktop\\584project\\584project.server\\controllers\\seedcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{311DE789-EE57-4D47-9A0B-E3F743161941}|584Project.Server\\584Project.Server.csproj|solutionrelative:584project.server\\controllers\\seedcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{311DE789-EE57-4D47-9A0B-E3F743161941}|584Project.Server\\584Project.Server.csproj|c:\\users\\ruben\\onedrive\\desktop\\584project\\584project.server\\controllers\\reviewscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{311DE789-EE57-4D47-9A0B-E3F743161941}|584Project.Server\\584Project.Server.csproj|solutionrelative:584project.server\\controllers\\reviewscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F958FFA7-044F-41AD-811F-57A9A66F2DE5}|dbModel\\dbModel.csproj|c:\\users\\ruben\\onedrive\\desktop\\584project\\dbmodel\\reviews.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F958FFA7-044F-41AD-811F-57A9A66F2DE5}|dbModel\\dbModel.csproj|solutionrelative:dbmodel\\reviews.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F958FFA7-044F-41AD-811F-57A9A66F2DE5}|dbModel\\dbModel.csproj|c:\\users\\ruben\\onedrive\\desktop\\584project\\dbmodel\\locations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,28 +35,12 @@
       "RelativeMoniker": "D:0:0:{F958FFA7-044F-41AD-811F-57A9A66F2DE5}|dbModel\\dbModel.csproj|solutionrelative:dbmodel\\restaurantcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F958FFA7-044F-41AD-811F-57A9A66F2DE5}|dbModel\\dbModel.csproj|c:\\users\\ruben\\onedrive\\desktop\\584project\\dbmodel\\reviews.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F958FFA7-044F-41AD-811F-57A9A66F2DE5}|dbModel\\dbModel.csproj|solutionrelative:dbmodel\\reviews.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{311DE789-EE57-4D47-9A0B-E3F743161941}|584Project.Server\\584Project.Server.csproj|c:\\users\\ruben\\onedrive\\desktop\\584project\\584project.server\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{311DE789-EE57-4D47-9A0B-E3F743161941}|584Project.Server\\584Project.Server.csproj|solutionrelative:584project.server\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{311DE789-EE57-4D47-9A0B-E3F743161941}|584Project.Server\\584Project.Server.csproj|c:\\users\\ruben\\onedrive\\desktop\\584project\\584project.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{311DE789-EE57-4D47-9A0B-E3F743161941}|584Project.Server\\584Project.Server.csproj|solutionrelative:584project.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{311DE789-EE57-4D47-9A0B-E3F743161941}|584Project.Server\\584Project.Server.csproj|c:\\users\\ruben\\onedrive\\desktop\\584project\\584project.server\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{311DE789-EE57-4D47-9A0B-E3F743161941}|584Project.Server\\584Project.Server.csproj|solutionrelative:584project.server\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{311DE789-EE57-4D47-9A0B-E3F743161941}|584Project.Server\\584Project.Server.csproj|c:\\users\\ruben\\onedrive\\desktop\\584project\\584project.server\\controllers\\locationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{311DE789-EE57-4D47-9A0B-E3F743161941}|584Project.Server\\584Project.Server.csproj|solutionrelative:584project.server\\controllers\\locationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{311DE789-EE57-4D47-9A0B-E3F743161941}|584Project.Server\\584Project.Server.csproj|c:\\users\\ruben\\onedrive\\desktop\\584project\\584project.server\\controllers\\seedcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{311DE789-EE57-4D47-9A0B-E3F743161941}|584Project.Server\\584Project.Server.csproj|solutionrelative:584project.server\\controllers\\seedcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{311DE789-EE57-4D47-9A0B-E3F743161941}|584Project.Server\\584Project.Server.csproj|c:\\users\\ruben\\onedrive\\desktop\\584project\\584project.server\\584project.server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -58,46 +58,20 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "RestaurantContext.cs",
-              "DocumentMoniker": "C:\\Users\\ruben\\OneDrive\\Desktop\\584Project\\dbModel\\RestaurantContext.cs",
-              "RelativeDocumentMoniker": "dbModel\\RestaurantContext.cs",
-              "ToolTip": "C:\\Users\\ruben\\OneDrive\\Desktop\\584Project\\dbModel\\RestaurantContext.cs",
-              "RelativeToolTip": "dbModel\\RestaurantContext.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAQwDEAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T23:31:48.793Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "ReviewsController.cs",
               "DocumentMoniker": "C:\\Users\\ruben\\OneDrive\\Desktop\\584Project\\584Project.Server\\Controllers\\ReviewsController.cs",
               "RelativeDocumentMoniker": "584Project.Server\\Controllers\\ReviewsController.cs",
               "ToolTip": "C:\\Users\\ruben\\OneDrive\\Desktop\\584Project\\584Project.Server\\Controllers\\ReviewsController.cs",
               "RelativeToolTip": "584Project.Server\\Controllers\\ReviewsController.cs",
-              "ViewState": "AgIAAFYAAAAAAAAAAAAAAHoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAIwHoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-22T23:51:06.319Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Reviews.cs",
-              "DocumentMoniker": "C:\\Users\\ruben\\OneDrive\\Desktop\\584Project\\dbModel\\Reviews.cs",
-              "RelativeDocumentMoniker": "dbModel\\Reviews.cs",
-              "ToolTip": "C:\\Users\\ruben\\OneDrive\\Desktop\\584Project\\dbModel\\Reviews.cs",
-              "RelativeToolTip": "dbModel\\Reviews.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T23:18:57.481Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Locations.cs",
               "DocumentMoniker": "C:\\Users\\ruben\\OneDrive\\Desktop\\584Project\\dbModel\\Locations.cs",
               "RelativeDocumentMoniker": "dbModel\\Locations.cs",
@@ -105,77 +79,50 @@
               "RelativeToolTip": "dbModel\\Locations.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T23:17:59.932Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-22T23:17:59.932Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "LocationReveiw.cs",
               "DocumentMoniker": "C:\\Users\\ruben\\OneDrive\\Desktop\\584Project\\584Project.Server\\Dtos\\LocationReveiw.cs",
               "RelativeDocumentMoniker": "584Project.Server\\Dtos\\LocationReveiw.cs",
               "ToolTip": "C:\\Users\\ruben\\OneDrive\\Desktop\\584Project\\584Project.Server\\Dtos\\LocationReveiw.cs",
               "RelativeToolTip": "584Project.Server\\Dtos\\LocationReveiw.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAAMAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-22T23:34:49.912Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\ruben\\OneDrive\\Desktop\\584Project\\584Project.Server\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "584Project.Server\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\ruben\\OneDrive\\Desktop\\584Project\\584Project.Server\\appsettings.Development.json",
-              "RelativeToolTip": "584Project.Server\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAACDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-23T00:09:10.554Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\ruben\\OneDrive\\Desktop\\584Project\\584Project.Server\\Program.cs",
-              "RelativeDocumentMoniker": "584Project.Server\\Program.cs",
-              "ToolTip": "C:\\Users\\ruben\\OneDrive\\Desktop\\584Project\\584Project.Server\\Program.cs",
-              "RelativeToolTip": "584Project.Server\\Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA0AAABVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T00:08:01.881Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "WeatherForecast.cs",
-              "DocumentMoniker": "C:\\Users\\ruben\\OneDrive\\Desktop\\584Project\\584Project.Server\\WeatherForecast.cs",
-              "RelativeDocumentMoniker": "584Project.Server\\WeatherForecast.cs",
-              "ToolTip": "C:\\Users\\ruben\\OneDrive\\Desktop\\584Project\\584Project.Server\\WeatherForecast.cs",
-              "RelativeToolTip": "584Project.Server\\WeatherForecast.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T00:22:36.882Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 1,
               "Title": "LocationsController.cs",
               "DocumentMoniker": "C:\\Users\\ruben\\OneDrive\\Desktop\\584Project\\584Project.Server\\Controllers\\LocationsController.cs",
               "RelativeDocumentMoniker": "584Project.Server\\Controllers\\LocationsController.cs",
               "ToolTip": "C:\\Users\\ruben\\OneDrive\\Desktop\\584Project\\584Project.Server\\Controllers\\LocationsController.cs",
               "RelativeToolTip": "584Project.Server\\Controllers\\LocationsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowHkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-22T23:46:58.922Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ruben\\OneDrive\\Desktop\\584Project\\584Project.Server\\Program.cs",
+              "RelativeDocumentMoniker": "584Project.Server\\Program.cs",
+              "ToolTip": "C:\\Users\\ruben\\OneDrive\\Desktop\\584Project\\584Project.Server\\Program.cs",
+              "RelativeToolTip": "584Project.Server\\Program.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T00:08:01.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "SeedController.cs",
               "DocumentMoniker": "C:\\Users\\ruben\\OneDrive\\Desktop\\584Project\\584Project.Server\\Controllers\\SeedController.cs",
               "RelativeDocumentMoniker": "584Project.Server\\Controllers\\SeedController.cs",
@@ -188,6 +135,54 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Reviews.cs",
+              "DocumentMoniker": "C:\\Users\\ruben\\OneDrive\\Desktop\\584Project\\dbModel\\Reviews.cs",
+              "RelativeDocumentMoniker": "dbModel\\Reviews.cs",
+              "ToolTip": "C:\\Users\\ruben\\OneDrive\\Desktop\\584Project\\dbModel\\Reviews.cs",
+              "RelativeToolTip": "dbModel\\Reviews.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T23:18:57.481Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RestaurantContext.cs",
+              "DocumentMoniker": "C:\\Users\\ruben\\OneDrive\\Desktop\\584Project\\dbModel\\RestaurantContext.cs",
+              "RelativeDocumentMoniker": "dbModel\\RestaurantContext.cs",
+              "ToolTip": "C:\\Users\\ruben\\OneDrive\\Desktop\\584Project\\dbModel\\RestaurantContext.cs",
+              "RelativeToolTip": "dbModel\\RestaurantContext.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAQwDEAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T23:31:48.793Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\ruben\\OneDrive\\Desktop\\584Project\\584Project.Server\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "584Project.Server\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\ruben\\OneDrive\\Desktop\\584Project\\584Project.Server\\appsettings.Development.json",
+              "RelativeToolTip": "584Project.Server\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAACDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-23T00:09:10.554Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\ruben\\OneDrive\\Desktop\\584Project\\584Project.Server\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "584Project.Server\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\ruben\\OneDrive\\Desktop\\584Project\\584Project.Server\\WeatherForecast.cs",
+              "RelativeToolTip": "584Project.Server\\WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T00:22:36.882Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 10,
               "Title": "584Project.Server.csproj",
               "DocumentMoniker": "C:\\Users\\ruben\\OneDrive\\Desktop\\584Project\\584Project.Server\\584Project.Server.csproj",
@@ -196,8 +191,7 @@
               "RelativeToolTip": "584Project.Server\\584Project.Server.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-28T03:12:08.58Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-28T03:12:08.58Z"
             }
           ]
         }
