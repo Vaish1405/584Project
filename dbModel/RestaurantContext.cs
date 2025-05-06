@@ -23,6 +23,10 @@ public partial class RestaurantContext : IdentityDbContext<User>
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
+        if (optionsBuilder.IsConfigured)
+        {
+            return;
+        }
         IConfigurationBuilder builder = new ConfigurationBuilder()
             .AddJsonFile("appsettings.json");
 

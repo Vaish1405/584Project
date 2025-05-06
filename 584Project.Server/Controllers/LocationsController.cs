@@ -6,7 +6,8 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using dbModel;  // Correct namespace for RestaurantContext
-using _584Project.Server.Dtos;    // Correct namespace for LocationReviewDto
+using _584Project.Server.Dtos;
+using Microsoft.AspNetCore.Authorization;    // Correct namespace for LocationReviewDto
 
 namespace _584Project.Server.Controllers
 {
@@ -40,6 +41,7 @@ namespace _584Project.Server.Controllers
         }
 
         // GET: api/Locations/5
+        [Authorize]
         [HttpGet("{id}")]
         public async Task<ActionResult<LocationReviewDto>> GetLocation(int id)
         {
