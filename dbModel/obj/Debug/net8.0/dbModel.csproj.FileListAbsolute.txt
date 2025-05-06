@@ -27,3 +27,4 @@ C:\Users\ruben\OneDrive\Desktop\584Project\dbModel\bin\Debug\net8.0\dbModel.dll
 C:\Users\ruben\OneDrive\Desktop\584Project\dbModel\bin\Debug\net8.0\dbModel.pdb
 C:\Users\ruben\OneDrive\Desktop\584Project\dbModel\obj\Debug\net8.0\dbModel.genruntimeconfig.cache
 C:\Users\ruben\OneDrive\Desktop\584Project\dbModel\obj\Debug\net8.0\ref\dbModel.dll
+C:\Users\ruben\OneDrive\Desktop\584Project\dbModel\bin\Debug\net8.0\appsettings.json

@@ -1,10 +1,12 @@
 ﻿using System;
 using dbModel;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 
 namespace dbModel;
 
-public partial class RestaurantContext : DbContext
+public partial class RestaurantContext : IdentityDbContext<User>
 {
     public RestaurantContext()
     {
@@ -20,11 +22,17 @@ public partial class RestaurantContext : DbContext
     public virtual DbSet<Review> Reviews { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-#warning For real, don't leave sensitive stuff like connection strings hanging here. Move this to your config, trust me. 👀
-        => optionsBuilder.UseSqlServer("server=localhost\\SQLEXPRESS;database=RestaurantReviews;Trusted_Connection=True;TrustServerCertificate=True;");
+    {
+        IConfigurationBuilder builder = new ConfigurationBuilder()
+            .AddJsonFile("appsettings.json");
+
+        IConfigurationRoot configuration = builder.Build();
+        optionsBuilder.UseSqlServer(configuration.GetConnectionString("DefaultConnection"));
+    }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
+        base.OnModelCreating(modelBuilder);
         modelBuilder.Entity<Location>(entity =>
         {
             entity.HasKey(e => e.LocationId);
