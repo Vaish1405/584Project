@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\ruben\\OneDrive\\Desktop\\584Project\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{311DE789-EE57-4D47-9A0B-E3F743161941}|584Project.Server\\584Project.Server.csproj|c:\\users\\ruben\\onedrive\\desktop\\584project\\584project.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{311DE789-EE57-4D47-9A0B-E3F743161941}|584Project.Server\\584Project.Server.csproj|solutionrelative:584project.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{311DE789-EE57-4D47-9A0B-E3F743161941}|584Project.Server\\584Project.Server.csproj|c:\\users\\ruben\\onedrive\\desktop\\584project\\584project.server\\controllers\\seedcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{311DE789-EE57-4D47-9A0B-E3F743161941}|584Project.Server\\584Project.Server.csproj|solutionrelative:584project.server\\controllers\\seedcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{311DE789-EE57-4D47-9A0B-E3F743161941}|584Project.Server\\584Project.Server.csproj|c:\\users\\ruben\\onedrive\\desktop\\584project\\584project.server\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{311DE789-EE57-4D47-9A0B-E3F743161941}|584Project.Server\\584Project.Server.csproj|solutionrelative:584project.server\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{311DE789-EE57-4D47-9A0B-E3F743161941}|584Project.Server\\584Project.Server.csproj|c:\\users\\ruben\\onedrive\\desktop\\584project\\584project.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{311DE789-EE57-4D47-9A0B-E3F743161941}|584Project.Server\\584Project.Server.csproj|solutionrelative:584project.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{311DE789-EE57-4D47-9A0B-E3F743161941}|584Project.Server\\584Project.Server.csproj|c:\\users\\ruben\\onedrive\\desktop\\584project\\584project.server\\controllers\\locationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,17 +46,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "SeedController.cs",
               "DocumentMoniker": "C:\\Users\\ruben\\OneDrive\\Desktop\\584Project\\584Project.Server\\Controllers\\SeedController.cs",
               "RelativeDocumentMoniker": "584Project.Server\\Controllers\\SeedController.cs",
               "ToolTip": "C:\\Users\\ruben\\OneDrive\\Desktop\\584Project\\584Project.Server\\Controllers\\SeedController.cs",
               "RelativeToolTip": "584Project.Server\\Controllers\\SeedController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABcAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-06T22:43:57.247Z",
               "EditorCaption": ""
@@ -76,20 +76,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\ruben\\OneDrive\\Desktop\\584Project\\584Project.Server\\Program.cs",
               "RelativeDocumentMoniker": "584Project.Server\\Program.cs",
               "ToolTip": "C:\\Users\\ruben\\OneDrive\\Desktop\\584Project\\584Project.Server\\Program.cs",
               "RelativeToolTip": "584Project.Server\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAqwDkAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-23T00:08:01.881Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "AdminController.cs",
               "DocumentMoniker": "C:\\Users\\ruben\\OneDrive\\Desktop\\584Project\\584Project.Server\\Controllers\\AdminController.cs",
               "RelativeDocumentMoniker": "584Project.Server\\Controllers\\AdminController.cs",

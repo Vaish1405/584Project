@@ -5,7 +5,12 @@
         </button>
   
         <a mat-flat-button color="primary" [routerLink]="['/locations']">Locations</a>
-        <a mat-flat-button color="primary" [routerLink]="['/reviews']">Reviews</a>
         <span class="separator"></span>
+        @if (loggedIn) {
+          <a mat-flat-button color="primary" (click)="logout()">Logout</a>
+        }
+        @else {
+          <a mat-flat-button color="primary" [routerLink]="['/login']">Login</a>
+        }
     </mat-toolbar>
   </header>
