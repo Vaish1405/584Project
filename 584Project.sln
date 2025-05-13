@@ -1,13 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35919.96 d17.13
+VisualStudioVersion = 17.13.35919.96
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "584project.client", "584project.client\584project.client.esproj", "{9B3FA168-1AF1-1DA8-5565-5C305EDABE85}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "584Project.Server", "584Project.Server\584Project.Server.csproj", "{311DE789-EE57-4D47-9A0B-E3F743161941}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dbModel", "dbModel\dbModel.csproj", "{F958FFA7-044F-41AD-811F-57A9A66F2DE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "584Project.Tests", "584Project.Tests\584Project.Tests.csproj", "{A1BC514D-83B9-4B4F-B4C1-BA9C72FC4B47}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +31,10 @@ Global
 		{F958FFA7-044F-41AD-811F-57A9A66F2DE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F958FFA7-044F-41AD-811F-57A9A66F2DE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F958FFA7-044F-41AD-811F-57A9A66F2DE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1BC514D-83B9-4B4F-B4C1-BA9C72FC4B47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1BC514D-83B9-4B4F-B4C1-BA9C72FC4B47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1BC514D-83B9-4B4F-B4C1-BA9C72FC4B47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1BC514D-83B9-4B4F-B4C1-BA9C72FC4B47}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
