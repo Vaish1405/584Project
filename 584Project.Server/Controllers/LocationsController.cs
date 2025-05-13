@@ -1,13 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using dbModel;  // Correct namespace for RestaurantContext
+using dbModel;
 using _584Project.Server.Dtos;
-using Microsoft.AspNetCore.Authorization;    // Correct namespace for LocationReviewDto
 
 namespace _584Project.Server.Controllers
 {
@@ -24,38 +18,37 @@ namespace _584Project.Server.Controllers
 
         // GET: api/Locations
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<LocationReviewDto>>> GetLocations()
+        public async Task<ActionResult<IEnumerable<LocationDto>>> GetAllLocations()
         {
             return await _context.Locations
-                .Select(location => new LocationReviewDto
+                .Select(loc => new LocationDto
                 {
-                    LocationId = location.LocationId,
-                    CityName = location.CityName,
-                    Country = location.Country,
-                    AdminName = location.AdminName,
-                    Latitude = location.Latitude,
-                    Longitude = location.Longitude,
-                    RestaurantName = location.RestaurantName,
+                    LocationId = loc.LocationId,
+                    CityName = loc.CityName,
+                    Country = loc.Country,
+                    AdminName = loc.AdminName,
+                    Latitude = loc.Latitude,
+                    Longitude = loc.Longitude,
+                    RestaurantName = loc.RestaurantName
                 })
                 .ToListAsync();
         }
 
         // GET: api/Locations/5
-        [Authorize]
         [HttpGet("{id}")]
-        public async Task<ActionResult<LocationReviewDto>> GetLocation(int id)
+        public async Task<ActionResult<LocationDto>> GetLocationById(int id)
         {
             var location = await _context.Locations
-                .Where(l => l.LocationId == id)
-                .Select(location => new LocationReviewDto
+                .Where(loc => loc.LocationId == id)
+                .Select(loc => new LocationDto
                 {
-                    LocationId = location.LocationId,
-                    CityName = location.CityName,
-                    Country = location.Country,
-                    AdminName = location.AdminName,
-                    Latitude = location.Latitude,
-                    Longitude = location.Longitude,
-                    RestaurantName = location.RestaurantName,
+                    LocationId = loc.LocationId,
+                    CityName = loc.CityName,
+                    Country = loc.Country,
+                    AdminName = loc.AdminName,
+                    Latitude = loc.Latitude,
+                    Longitude = loc.Longitude,
+                    RestaurantName = loc.RestaurantName
                 })
                 .FirstOrDefaultAsync();
 
@@ -65,6 +58,16 @@ namespace _584Project.Server.Controllers
             }
 
             return location;
+        }
+
+        // POST: api/Locations
+        [HttpPost]
+        public async Task<ActionResult<LocationDto>> PostLocation(Location location)
+        {
+            _context.Locations.Add(location);
+            await _context.SaveChangesAsync();
+
+            return CreatedAtAction(nameof(GetLocationById), new { id = location.LocationId }, location);
         }
 
         // PUT: api/Locations/5
@@ -95,16 +98,6 @@ namespace _584Project.Server.Controllers
             }
 
             return NoContent();
-        }
-
-        // POST: api/Locations
-        [HttpPost]
-        public async Task<ActionResult<Location>> PostLocation(Location location)
-        {
-            _context.Locations.Add(location);
-            await _context.SaveChangesAsync();
-
-            return CreatedAtAction("GetLocation", new { id = location.LocationId }, location);
         }
 
         // DELETE: api/Locations/5

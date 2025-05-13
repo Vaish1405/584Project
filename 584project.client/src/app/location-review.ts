@@ -6,6 +6,6 @@ export interface LocationReview {
     latitude: number;
     longitude: number;
     restaurantName: string;
-    reviewScore?: number;
-    reviewCount?: string;
+    reviewScore: number;
+    reviewCount: string;
 }

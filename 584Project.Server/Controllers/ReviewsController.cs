@@ -1,8 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using dbModel;
@@ -21,44 +19,47 @@ namespace _584Project.Server.Controllers
             _context = context;
         }
 
-        // GET: api/Reviews
+        // ✅ GET: api/Reviews
+        // Returns all reviews
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<LocationReviewDto>>> GetReviews()
+        public async Task<ActionResult<IEnumerable<ReviewDto>>> GetAllReviews()
         {
             return await _context.Reviews
-                .GroupBy(r => r.LocationId)
-                .Select(group => new LocationReviewDto
+                .Select(r => new ReviewDto
                 {
-                    LocationId = group.Key,
-                    ReviewScore = group.Average(r => r.ReviewScore),
-                    ReviewCount = group.Count().ToString()  // Ensure it's a string
+                    ReviewId = r.ReviewId,
+                    LocationId = r.LocationId,
+                    ReviewScore = r.ReviewScore,
+                    ReviewCount = r.ReviewCount
                 })
                 .ToListAsync();
         }
 
-        // GET: api/Reviews/5
-        [HttpGet("{id}")]
-        public async Task<ActionResult<LocationReviewDto>> GetReview(int id)
+        // ✅ GET: api/Reviews/location/5
+        // Returns all reviews for a specific location
+        [HttpGet("location/{locationId}")]
+        public async Task<ActionResult<IEnumerable<ReviewDto>>> GetReviewsByLocationId(int locationId)
         {
-            var review = await _context.Reviews
-                .Where(r => r.ReviewId == id)
-                .Select(r => new LocationReviewDto
+            var reviews = await _context.Reviews
+                .Where(r => r.LocationId == locationId)
+                .Select(r => new ReviewDto
                 {
+                    ReviewId = r.ReviewId,
                     LocationId = r.LocationId,
                     ReviewScore = r.ReviewScore,
-                    ReviewCount = r.ReviewCount  // This should already be a string from your model
+                    ReviewCount = r.ReviewCount
                 })
-                .FirstOrDefaultAsync();
+                .ToListAsync();
 
-            if (review == null)
+            if (reviews == null || reviews.Count == 0)
             {
                 return NotFound();
             }
 
-            return review;
+            return reviews;
         }
 
-        // PUT: api/Reviews/5
+        // ✅ PUT: api/Reviews/5
         [HttpPut("{id}")]
         public async Task<IActionResult> PutReview(int id, Review review)
         {
@@ -88,17 +89,17 @@ namespace _584Project.Server.Controllers
             return NoContent();
         }
 
-        // POST: api/Reviews
+        // ✅ POST: api/Reviews
         [HttpPost]
         public async Task<ActionResult<Review>> PostReview(Review review)
         {
             _context.Reviews.Add(review);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction(nameof(GetReview), new { id = review.ReviewId }, review);
+            return CreatedAtAction(nameof(GetAllReviews), new { id = review.ReviewId }, review);
         }
 
-        // DELETE: api/Reviews/5
+        // ✅ DELETE: api/Reviews/5
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteReview(int id)
         {

@@ -3,6 +3,30 @@
   "WorkspaceRootPath": "C:\\Users\\ruben\\OneDrive\\Desktop\\584Project\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{311DE789-EE57-4D47-9A0B-E3F743161941}|584Project.Server\\584Project.Server.csproj|c:\\users\\ruben\\onedrive\\desktop\\584project\\584project.server\\controllers\\locationreviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{311DE789-EE57-4D47-9A0B-E3F743161941}|584Project.Server\\584Project.Server.csproj|solutionrelative:584project.server\\controllers\\locationreviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{311DE789-EE57-4D47-9A0B-E3F743161941}|584Project.Server\\584Project.Server.csproj|c:\\users\\ruben\\onedrive\\desktop\\584project\\584project.server\\controllers\\locationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{311DE789-EE57-4D47-9A0B-E3F743161941}|584Project.Server\\584Project.Server.csproj|solutionrelative:584project.server\\controllers\\locationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{311DE789-EE57-4D47-9A0B-E3F743161941}|584Project.Server\\584Project.Server.csproj|c:\\users\\ruben\\onedrive\\desktop\\584project\\584project.server\\jwthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{311DE789-EE57-4D47-9A0B-E3F743161941}|584Project.Server\\584Project.Server.csproj|solutionrelative:584project.server\\jwthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{311DE789-EE57-4D47-9A0B-E3F743161941}|584Project.Server\\584Project.Server.csproj|c:\\users\\ruben\\onedrive\\desktop\\584project\\584project.server\\dtos\\locationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{311DE789-EE57-4D47-9A0B-E3F743161941}|584Project.Server\\584Project.Server.csproj|solutionrelative:584project.server\\dtos\\locationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{311DE789-EE57-4D47-9A0B-E3F743161941}|584Project.Server\\584Project.Server.csproj|c:\\users\\ruben\\onedrive\\desktop\\584project\\584project.server\\controllers\\reviewscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{311DE789-EE57-4D47-9A0B-E3F743161941}|584Project.Server\\584Project.Server.csproj|solutionrelative:584project.server\\controllers\\reviewscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{311DE789-EE57-4D47-9A0B-E3F743161941}|584Project.Server\\584Project.Server.csproj|c:\\users\\ruben\\onedrive\\desktop\\584project\\584project.server\\dtos\\reviewdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{311DE789-EE57-4D47-9A0B-E3F743161941}|584Project.Server\\584Project.Server.csproj|solutionrelative:584project.server\\dtos\\reviewdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{311DE789-EE57-4D47-9A0B-E3F743161941}|584Project.Server\\584Project.Server.csproj|c:\\users\\ruben\\onedrive\\desktop\\584project\\584project.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{311DE789-EE57-4D47-9A0B-E3F743161941}|584Project.Server\\584Project.Server.csproj|solutionrelative:584project.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,16 +39,8 @@
       "RelativeMoniker": "D:0:0:{311DE789-EE57-4D47-9A0B-E3F743161941}|584Project.Server\\584Project.Server.csproj|solutionrelative:584project.server\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{311DE789-EE57-4D47-9A0B-E3F743161941}|584Project.Server\\584Project.Server.csproj|c:\\users\\ruben\\onedrive\\desktop\\584project\\584project.server\\controllers\\locationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{311DE789-EE57-4D47-9A0B-E3F743161941}|584Project.Server\\584Project.Server.csproj|solutionrelative:584project.server\\controllers\\locationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{311DE789-EE57-4D47-9A0B-E3F743161941}|584Project.Server\\584Project.Server.csproj|c:\\users\\ruben\\onedrive\\desktop\\584project\\584project.server\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{311DE789-EE57-4D47-9A0B-E3F743161941}|584Project.Server\\584Project.Server.csproj|solutionrelative:584project.server\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{311DE789-EE57-4D47-9A0B-E3F743161941}|584Project.Server\\584Project.Server.csproj|c:\\users\\ruben\\onedrive\\desktop\\584project\\584project.server\\jwthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{311DE789-EE57-4D47-9A0B-E3F743161941}|584Project.Server\\584Project.Server.csproj|solutionrelative:584project.server\\jwthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{311DE789-EE57-4D47-9A0B-E3F743161941}|584Project.Server\\584Project.Server.csproj|c:\\users\\ruben\\onedrive\\desktop\\584project\\584project.server\\dtos\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,11 +62,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "LocationDto.cs",
+              "DocumentMoniker": "C:\\Users\\ruben\\OneDrive\\Desktop\\584Project\\584Project.Server\\Dtos\\LocationDto.cs",
+              "RelativeDocumentMoniker": "584Project.Server\\Dtos\\LocationDto.cs",
+              "ToolTip": "C:\\Users\\ruben\\OneDrive\\Desktop\\584Project\\584Project.Server\\Dtos\\LocationDto.cs",
+              "RelativeToolTip": "584Project.Server\\Dtos\\LocationDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T22:20:49.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LocationReviewController.cs",
+              "DocumentMoniker": "C:\\Users\\ruben\\OneDrive\\Desktop\\584Project\\584Project.Server\\Controllers\\LocationReviewController.cs",
+              "RelativeDocumentMoniker": "584Project.Server\\Controllers\\LocationReviewController.cs",
+              "ToolTip": "C:\\Users\\ruben\\OneDrive\\Desktop\\584Project\\584Project.Server\\Controllers\\LocationReviewController.cs",
+              "RelativeToolTip": "584Project.Server\\Controllers\\LocationReviewController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAwC0AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T22:19:51.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ReviewsController.cs",
+              "DocumentMoniker": "C:\\Users\\ruben\\OneDrive\\Desktop\\584Project\\584Project.Server\\Controllers\\ReviewsController.cs",
+              "RelativeDocumentMoniker": "584Project.Server\\Controllers\\ReviewsController.cs",
+              "ToolTip": "C:\\Users\\ruben\\OneDrive\\Desktop\\584Project\\584Project.Server\\Controllers\\ReviewsController.cs",
+              "RelativeToolTip": "584Project.Server\\Controllers\\ReviewsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T22:18:27.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ReviewDto.cs",
+              "DocumentMoniker": "C:\\Users\\ruben\\OneDrive\\Desktop\\584Project\\584Project.Server\\Dtos\\ReviewDto.cs",
+              "RelativeDocumentMoniker": "584Project.Server\\Dtos\\ReviewDto.cs",
+              "ToolTip": "C:\\Users\\ruben\\OneDrive\\Desktop\\584Project\\584Project.Server\\Dtos\\ReviewDto.cs",
+              "RelativeToolTip": "584Project.Server\\Dtos\\ReviewDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T22:18:09.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "SeedController.cs",
               "DocumentMoniker": "C:\\Users\\ruben\\OneDrive\\Desktop\\584Project\\584Project.Server\\Controllers\\SeedController.cs",
               "RelativeDocumentMoniker": "584Project.Server\\Controllers\\SeedController.cs",
@@ -58,38 +126,36 @@
               "RelativeToolTip": "584Project.Server\\Controllers\\SeedController.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAABcAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T22:43:57.247Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-06T22:43:57.247Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "LocationsController.cs",
               "DocumentMoniker": "C:\\Users\\ruben\\OneDrive\\Desktop\\584Project\\584Project.Server\\Controllers\\LocationsController.cs",
               "RelativeDocumentMoniker": "584Project.Server\\Controllers\\LocationsController.cs",
               "ToolTip": "C:\\Users\\ruben\\OneDrive\\Desktop\\584Project\\584Project.Server\\Controllers\\LocationsController.cs",
               "RelativeToolTip": "584Project.Server\\Controllers\\LocationsController.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAowCsAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAuwCwAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-06T22:37:27.681Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\ruben\\OneDrive\\Desktop\\584Project\\584Project.Server\\Program.cs",
               "RelativeDocumentMoniker": "584Project.Server\\Program.cs",
               "ToolTip": "C:\\Users\\ruben\\OneDrive\\Desktop\\584Project\\584Project.Server\\Program.cs",
               "RelativeToolTip": "584Project.Server\\Program.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAqwDkAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAqwDoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T00:08:01.881Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-23T00:08:01.881Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "AdminController.cs",
               "DocumentMoniker": "C:\\Users\\ruben\\OneDrive\\Desktop\\584Project\\584Project.Server\\Controllers\\AdminController.cs",
               "RelativeDocumentMoniker": "584Project.Server\\Controllers\\AdminController.cs",
@@ -97,38 +163,11 @@
               "RelativeToolTip": "584Project.Server\\Controllers\\AdminController.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAADwvwcAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T22:17:28.718Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-06T22:17:28.718Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\ruben\\OneDrive\\Desktop\\584Project\\584Project.Server\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "584Project.Server\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\ruben\\OneDrive\\Desktop\\584Project\\584Project.Server\\appsettings.Development.json",
-              "RelativeToolTip": "584Project.Server\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-06T22:36:35.635Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "LoginRequest.cs",
-              "DocumentMoniker": "C:\\Users\\ruben\\OneDrive\\Desktop\\584Project\\584Project.Server\\Dtos\\LoginRequest.cs",
-              "RelativeDocumentMoniker": "584Project.Server\\Dtos\\LoginRequest.cs",
-              "ToolTip": "C:\\Users\\ruben\\OneDrive\\Desktop\\584Project\\584Project.Server\\Dtos\\LoginRequest.cs",
-              "RelativeToolTip": "584Project.Server\\Dtos\\LoginRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T22:19:15.672Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "JwtHandler.cs",
               "DocumentMoniker": "C:\\Users\\ruben\\OneDrive\\Desktop\\584Project\\584Project.Server\\JwtHandler.cs",
               "RelativeDocumentMoniker": "584Project.Server\\JwtHandler.cs",
@@ -141,7 +180,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\ruben\\OneDrive\\Desktop\\584Project\\584Project.Server\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "584Project.Server\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\ruben\\OneDrive\\Desktop\\584Project\\584Project.Server\\appsettings.Development.json",
+              "RelativeToolTip": "584Project.Server\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-06T22:36:35.635Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "C:\\Users\\ruben\\OneDrive\\Desktop\\584Project\\584Project.Server\\Dtos\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "584Project.Server\\Dtos\\LoginRequest.cs",
+              "ToolTip": "C:\\Users\\ruben\\OneDrive\\Desktop\\584Project\\584Project.Server\\Dtos\\LoginRequest.cs",
+              "RelativeToolTip": "584Project.Server\\Dtos\\LoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T22:19:15.672Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "RestaurantContext.cs",
               "DocumentMoniker": "C:\\Users\\ruben\\OneDrive\\Desktop\\584Project\\dbModel\\RestaurantContext.cs",
               "RelativeDocumentMoniker": "dbModel\\RestaurantContext.cs",
@@ -149,12 +212,11 @@
               "RelativeToolTip": "dbModel\\RestaurantContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T22:15:50.778Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-06T22:15:50.778Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "LoginResponse.cs",
               "DocumentMoniker": "C:\\Users\\ruben\\OneDrive\\Desktop\\584Project\\584Project.Server\\Dtos\\LoginResponse.cs",
               "RelativeDocumentMoniker": "584Project.Server\\Dtos\\LoginResponse.cs",
@@ -162,8 +224,7 @@
               "RelativeToolTip": "584Project.Server\\Dtos\\LoginResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T22:27:54.424Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-06T22:27:54.424Z"
             }
           ]
         }

@@ -1,8 +1,8 @@
-<h1>Locations</h1>
-<p>Here's a list of restaurant locations: click to explore.</p>
+<h1 class="page-title">Locations</h1>
+<p class="intro-text">Here's a list of restaurant locations: click to explore.</p>
 
-<div *ngIf="locations && locations.length > 0; else loading">
-  <table class="table table-striped" aria-labelledby="tableLabel">
+<div *ngIf="locations && locations.length > 0; else loading" class="locations-container">
+  <table class="locations-table">
     <thead>
       <tr>
         <th>ID</th>
@@ -15,7 +15,7 @@
     </thead>
     <tbody>
       <tr *ngFor="let location of locations">
-        <td><a [routerLink]="['/locationDetails', location.locationId]">{{ location.locationId }}</a></td>
+        <td><a [routerLink]="['/location-reviews', location.locationId]" class="location-link">{{ location.locationId }}</a></td>
         <td>{{ location.restaurantName }}</td>
         <td>{{ location.cityName }}</td>
         <td>{{ location.country }}</td>
@@ -24,8 +24,12 @@
       </tr>
     </tbody>
   </table>
+  <div class="info-note">
+    <p class="info-text">Try <code>8</code> to see what happens when there are no reviews. 👀</p>
+  </div>
+  
 </div>
 
 <ng-template #loading>
-  <p><em>Loading...</em></p>
+  <p class="loading-message"><em>Loading...</em></p>
 </ng-template>

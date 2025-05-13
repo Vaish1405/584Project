@@ -1,0 +1,23 @@
+<div *ngIf="loading" class="loading-message">
+    <p>Loading review info...</p>
+  </div>
+  
+  <div *ngIf="!loading && reviewData" class="review-container">
+    <h2 class="review-title">{{ reviewData.restaurantName }}</h2>
+    <div class="review-info">
+      <p><strong>Review Score:</strong> {{ reviewData.reviewScore }}</p>
+      <p><strong>Review Count:</strong> {{ reviewData.reviewCount }}</p>
+    </div>
+    <div class="info-box">
+        <h3>How These Scores Work</h3>
+        <p>
+          The Score is the <strong>average rating</strong> people have given this place.<br />
+          The Count is the <strong> total </strong>number of reviews submitted by users.
+        </p>
+    </div>
+
+  </div>
+  
+  <div *ngIf="!loading && !reviewData" class="no-data-message">
+    <p>No review data found for this location.</p>
+  </div>
