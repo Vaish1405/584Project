@@ -1,10 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
 import { MatFormFieldModule } from '@angular/material/form-field'
-import { Route, Router, RouterLink } from '@angular/router';
+import { Router, RouterLink } from '@angular/router';
 import { MatInputModule } from '@angular/material/input'
 import { LoginRequest } from './login-request';
 import { AuthService } from './auth.service';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-login',
@@ -14,8 +15,9 @@ import { AuthService } from './auth.service';
 })
 export class LoginComponent implements OnInit {
   form!: FormGroup;
+  returnUrl: string = '/';
 
-  constructor(private authService: AuthService, private router: Router) {
+  constructor(private authService: AuthService, private router: Router, private route: ActivatedRoute) {
 
   }
   ngOnInit(): void {
@@ -23,21 +25,24 @@ export class LoginComponent implements OnInit {
       userName: new FormControl("", Validators.required),
       password: new FormControl("", Validators.required)
     });
+  
+    this.returnUrl = this.route.snapshot.queryParams['returnUrl'] || '/';
   }
+  
   onSubmit() {
-    let loginRequest = <LoginRequest>{
+    const loginRequest = <LoginRequest>{
       userName: this.form.controls['userName'].value,
       password: this.form.controls['password'].value
     };
-
+  
     this.authService.login(loginRequest).subscribe({
       next: result => {
-        console.log(result);
         if (result.success) {
-          this.router.navigate(["/"]);
+          this.router.navigateByUrl(this.returnUrl);
         }
       },
       error: error => console.error(error)
-    })
+    });
   }
+  
 }

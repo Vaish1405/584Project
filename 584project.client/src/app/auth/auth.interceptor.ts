@@ -16,7 +16,8 @@ import { catchError, throwError } from 'rxjs';
    }
    return next(req).pipe(catchError(error => {
     if(error instanceof HttpErrorResponse && error.status === 401) {
-      router.navigate(["/login"]);
+      const returnUrl = router.url;
+      router.navigate(["/login"], { queryParams: { returnUrl } });
     }
     return throwError(() => error);
   }));
