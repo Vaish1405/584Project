@@ -1,0 +1,15 @@
+C:\Users\ruben\OneDrive\Desktop\584Project\dbModel\bin\Release\net8.0\dbModel.deps.json
+C:\Users\ruben\OneDrive\Desktop\584Project\dbModel\bin\Release\net8.0\dbModel.runtimeconfig.json
+C:\Users\ruben\OneDrive\Desktop\584Project\dbModel\bin\Release\net8.0\dbModel.dll
+C:\Users\ruben\OneDrive\Desktop\584Project\dbModel\bin\Release\net8.0\dbModel.pdb
+C:\Users\ruben\OneDrive\Desktop\584Project\dbModel\obj\Release\net8.0\dbModel.csproj.AssemblyReference.cache
+C:\Users\ruben\OneDrive\Desktop\584Project\dbModel\obj\Release\net8.0\dbModel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ruben\OneDrive\Desktop\584Project\dbModel\obj\Release\net8.0\dbModel.AssemblyInfoInputs.cache
+C:\Users\ruben\OneDrive\Desktop\584Project\dbModel\obj\Release\net8.0\dbModel.AssemblyInfo.cs
+C:\Users\ruben\OneDrive\Desktop\584Project\dbModel\obj\Release\net8.0\dbModel.csproj.CoreCompileInputs.cache
+C:\Users\ruben\OneDrive\Desktop\584Project\dbModel\obj\Release\net8.0\dbModel.sourcelink.json
+C:\Users\ruben\OneDrive\Desktop\584Project\dbModel\obj\Release\net8.0\dbModel.dll
+C:\Users\ruben\OneDrive\Desktop\584Project\dbModel\obj\Release\net8.0\refint\dbModel.dll
+C:\Users\ruben\OneDrive\Desktop\584Project\dbModel\obj\Release\net8.0\dbModel.pdb
+C:\Users\ruben\OneDrive\Desktop\584Project\dbModel\obj\Release\net8.0\dbModel.genruntimeconfig.cache
+C:\Users\ruben\OneDrive\Desktop\584Project\dbModel\obj\Release\net8.0\ref\dbModel.dll

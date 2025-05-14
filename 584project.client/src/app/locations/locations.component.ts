@@ -1,7 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { Locations } from '../locations'; 
-import { environment } from '../../environments/environment.development';
+import { environment } from '../../environments/environment';
 import { RouterLink } from '@angular/router';
 import { CommonModule } from '@angular/common';
 

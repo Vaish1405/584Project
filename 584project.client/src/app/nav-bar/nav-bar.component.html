@@ -5,6 +5,7 @@
         </button>
   
         <a mat-flat-button color="primary" [routerLink]="['/locations']">Locations</a>
+        <a mat-flat-button color="primary" [routerLink]="['/staff']">Staff</a>
         <span class="separator"></span>
         @if (loggedIn) {
           <a mat-flat-button color="primary" (click)="logout()">Logout</a>

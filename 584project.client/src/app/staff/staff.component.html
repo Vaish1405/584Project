@@ -1,0 +1,38 @@
+<h1 class="page-title">Staff Directory</h1>
+<p class="intro-text">Here’s a list of all restaurant staff grouped together by country.</p>
+
+<div *ngIf="staffList && staffList.length > 0; else loading" class="locations-container">
+  <table class="locations-table">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Position</th>
+        <th>Restaurant</th>
+        <th>City</th>
+        <th>Country</th>
+      </tr>
+    </thead>
+    <tbody>
+      <ng-container *ngFor="let staff of staffList; let i = index">
+
+        <tr>
+          <td>{{ staff.staffId }}</td>
+          <td>{{ staff.firstName }} {{ staff.lastName }}</td>
+          <td>{{ staff.position }}</td>
+          <td>{{ staff.restaurantName }}</td>
+          <td>{{ staff.cityName }}</td>
+          <td>{{ staff.country }}</td>
+        </tr>
+      </ng-container>
+    </tbody>
+  </table>
+
+  <div class="info-note">
+    <p class="info-text">Staff are grouped by country. 🌍</p>
+  </div>
+</div>
+
+<ng-template #loading>
+  <p class="loading-message"><em>Loading...</em></p>
+</ng-template>

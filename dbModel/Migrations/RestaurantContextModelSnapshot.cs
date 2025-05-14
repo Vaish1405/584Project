@@ -194,7 +194,7 @@ namespace dbModel.Migrations
 
                     b.HasKey("LocationId");
 
-                    b.ToTable("locations");
+                    b.ToTable("locations", (string)null);
                 });
 
             modelBuilder.Entity("dbModel.Review", b =>
@@ -225,6 +225,39 @@ namespace dbModel.Migrations
                     b.HasIndex("LocationId");
 
                     b.ToTable("reviews");
+                });
+
+            modelBuilder.Entity("dbModel.Staff", b =>
+                {
+                    b.Property<int>("StaffId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasColumnName("staff_id");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("StaffId"));
+
+                    b.Property<string>("FirstName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("first_name");
+
+                    b.Property<string>("LastName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("last_name");
+
+                    b.Property<int>("LocationId")
+                        .HasColumnType("int")
+                        .HasColumnName("location_id");
+
+                    b.Property<string>("Position")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("position");
+
+                    b.HasKey("StaffId");
+
+                    b.ToTable("staff", (string)null);
                 });
 
             modelBuilder.Entity("dbModel.User", b =>

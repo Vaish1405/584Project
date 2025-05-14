@@ -11,46 +11,6 @@ namespace dbModel.Migrations
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.DropForeignKey(
-                name: "FK_Review_Location",
-                table: "reviews");
-
-            migrationBuilder.DropIndex(
-                name: "IX_reviews_restaurant_name",
-                table: "reviews");
-
-            migrationBuilder.DropUniqueConstraint(
-                name: "AK_locations_restaurant_name",
-                table: "locations");
-
-            migrationBuilder.DropColumn(
-                name: "restaurant_name",
-                table: "reviews");
-
-            migrationBuilder.AlterColumn<string>(
-                name: "review_count",
-                table: "reviews",
-                type: "nvarchar(10)",
-                maxLength: 10,
-                nullable: false,
-                oldClrType: typeof(int),
-                oldType: "int");
-
-            migrationBuilder.AddColumn<int>(
-                name: "location_id",
-                table: "reviews",
-                type: "int",
-                nullable: false,
-                defaultValue: 0);
-
-            migrationBuilder.AlterColumn<string>(
-                name: "restaurant_name",
-                table: "locations",
-                type: "nvarchar(max)",
-                nullable: false,
-                oldClrType: typeof(string),
-                oldType: "nvarchar(450)");
-
             migrationBuilder.CreateTable(
                 name: "AspNetRoles",
                 columns: table => new
@@ -251,10 +211,6 @@ namespace dbModel.Migrations
         /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.DropForeignKey(
-                name: "FK_Review_Location",
-                table: "reviews");
-
             migrationBuilder.DropTable(
                 name: "AspNetRoleClaims");
 
@@ -275,55 +231,6 @@ namespace dbModel.Migrations
 
             migrationBuilder.DropTable(
                 name: "AspNetUsers");
-
-            migrationBuilder.DropIndex(
-                name: "IX_reviews_location_id",
-                table: "reviews");
-
-            migrationBuilder.DropColumn(
-                name: "location_id",
-                table: "reviews");
-
-            migrationBuilder.AlterColumn<int>(
-                name: "review_count",
-                table: "reviews",
-                type: "int",
-                nullable: false,
-                oldClrType: typeof(string),
-                oldType: "nvarchar(10)",
-                oldMaxLength: 10);
-
-            migrationBuilder.AddColumn<string>(
-                name: "restaurant_name",
-                table: "reviews",
-                type: "nvarchar(450)",
-                nullable: false,
-                defaultValue: "");
-
-            migrationBuilder.AlterColumn<string>(
-                name: "restaurant_name",
-                table: "locations",
-                type: "nvarchar(450)",
-                nullable: false,
-                oldClrType: typeof(string),
-                oldType: "nvarchar(max)");
-
-            migrationBuilder.AddUniqueConstraint(
-                name: "AK_locations_restaurant_name",
-                table: "locations",
-                column: "restaurant_name");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_reviews_restaurant_name",
-                table: "reviews",
-                column: "restaurant_name");
-
-            migrationBuilder.AddForeignKey(
-                name: "FK_Review_Location",
-                table: "reviews",
-                column: "restaurant_name",
-                principalTable: "locations",
-                principalColumn: "restaurant_name");
         }
     }
 }

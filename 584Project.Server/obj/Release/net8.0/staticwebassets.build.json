@@ -1,0 +1,24 @@
+{
+  "Version": 1,
+  "Hash": "R9xNBQ29s27rwbJxCqR5I11cjcGd3pYGlm9Orc7ILwA=",
+  "Source": "584Project.Server",
+  "BasePath": "_content/584Project.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\ruben\\OneDrive\\Desktop\\584Project\\584project.client\\584project.client.esproj",
+      "Version": 2,
+      "Source": "584project.client",
+      "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Release;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Release;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

@@ -4,6 +4,7 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { LocationsComponent } from './locations/locations.component';
 import { LoginComponent } from './auth/login.component';
 import { LocationReviewsComponent } from './location-reviews/location-reviews.component';
+import { StaffComponent } from './staff/staff.component';
 
 export const routes: Routes = [
     { path: "weather", component: WeatherComponent },
@@ -11,5 +12,6 @@ export const routes: Routes = [
     { path: "locations", component: LocationsComponent},
     {path: "location-reviews/:id", component: LocationReviewsComponent},
     {path: "login", component: LoginComponent},
+    {path: "staff", component: StaffComponent},
     { path: "", component: WeatherComponent, pathMatch: "full" }
 ];

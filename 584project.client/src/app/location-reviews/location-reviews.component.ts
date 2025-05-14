@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { LocationReview } from '../location-review';
 import { HttpClient } from '@angular/common/http';
 import { ActivatedRoute } from '@angular/router';
-import { environment } from '../../environments/environment.development';
+import { environment } from '../../environments/environment';
 import { CommonModule } from '@angular/common';
 
 @Component({
